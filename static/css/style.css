@@ -5,6 +5,9 @@
 
 :root{
     --sparklab-font: "Rubik", serif;
+    --primaryColor:#4785FF;
+    --heroBgColor:#C9EEFF;
+    --btn-bgColor:#F9BE25;
 }
 
 
@@ -28,6 +31,7 @@
     padding: 1rem;
     background-color: #ffffff; 
     box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3); 
+    margin-top: 45px;
 }
 
 
@@ -56,7 +60,172 @@
     justify-content: center;
     color: white;
 }
-
-
-
 /* :.:about-end:.: */
+
+/* choose-us-section-start */
+/* #choose-us-section{
+    background-color: var(--heroBgColor);
+    height: 100vh;
+} */
+
+#choose-us-section{
+    background-color: var(--heroBgColor);
+}
+
+.choose-us-img-box{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3); 
+    width: 28rem;
+}
+#choose-btn{
+    height: 3rem;
+    width: 14rem;
+    background-color: var(--btn-bgColor);
+    border: none;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-family: var(--font-one);
+    font-weight: 500;
+}
+
+
+
+/*  */
+
+
+
+
+
+
+/*  <!-- Popular Spark Groups-section-start --> */
+.spark-write h2{
+    font-family: var(--font-one);
+    font-size: 56px;
+    font-weight: bolder;
+    color: #101218;
+
+}
+
+.spark-write p{
+    font-family: var(--font-one);
+    font-weight: 300;
+    color: #101218;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    margin-top: 2.5rem;
+
+}
+
+#Spark-btn{
+    width: 18rem;
+    height: 4rem;
+    background-color: var(--btn-bgColor);
+    border: none;
+    border-radius: 30px;
+    font-family: var(--font-one);
+    color: #101218;
+    font-weight: 600;
+    margin-top: 5rem;
+
+}
+
+
+
+
+.spark-img {
+    border: 2px solid #f0f0f0; 
+    padding: 25px;          
+    border-radius: 5px;  
+    background-color: #F9FAFC;  
+    margin-top: 45px; 
+}
+
+.spark-img img {
+    border-radius: 5px;     /* Optional: Rounded corners for the image */
+}
+
+.spark-img h3{
+    font-family: var(--font-one);
+    color: #101218;
+    font-weight: 600;
+     padding-left: 5px;
+    margin-top: 1rem;
+}
+
+.spark-img p{
+    font-family: var(--font-one);
+    color: #101218;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-top: 1rem;
+}
+#spark-icon{
+    color: var(--btn-bgColor);
+}
+
+
+/*  <!-- Popular Course-start --> */
+#Popular{
+  background-color: rgb(161, 162, 163);
+}
+.popular-write-up h3{
+    font-weight: 400;
+    /* font-size: 40px; */
+    line-height: 20px;
+    color: #2F59AA;
+    font-family: var(--sparklab-font);
+}
+
+
+.popular-write-up h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #101218;
+    margin-top: 25px;
+    font-family: var(--sparklab-font);
+}
+
+.popular-write-up p{
+    font-size: 18px;
+    color: #101218;
+    font-weight: 400;
+    margin-top: 25px;
+    font-family: var(--sparklab-font);
+}
+
+
+.popular-img{
+    background-color: #F9FAFC;
+    padding: 25px; 
+    border-radius: 10px;   
+    margin-top: 45px; 
+}
+
+
+.popular-img h3{
+    font-family: var(--font-one);
+    color: #101218;
+    font-weight: 600;
+     padding-left: 5px;
+    margin-top: 1rem;
+}
+
+.popular-img p{
+    font-family: var(--font-one);
+    color: #101218;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-top: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+#popular-btn{
+    height: 3rem;
+    width: 9rem;
+    background-color: var(--btn-bgColor);
+    border: none;
+    border-radius: 30px;
+    font-family: var(--font-one);
+    font-weight: 600;
+}
