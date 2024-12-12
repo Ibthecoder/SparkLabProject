@@ -479,11 +479,82 @@ margin-top: 25px;
     font-weight: 600;
 }
 
-
-
-
-
 /*  */
+
+/*Inspiring-section-start  */
+#Inspiring-section{
+    background-color: rgb(242,201,76);
+}
+.Inspiring-writeUp h3{
+    line-height: 20px;
+    color: #2F59AA;
+    font-family: var(--sparklab-font);
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.Inspiring-writeUp h2{
+    font-family: var(--font-one);
+    font-weight: bolder;
+    color: #2F59AA;
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+    margin-top: 10px;
+}
+.Inspiring-writeUp p{
+    color: #2F59AA;
+    font-weight: 400;  
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+#icon-text{
+    color: #2F59AA;
+    font-weight: 600; 
+}
+#iconi-in{
+    color: white;
+}
+
+#inspiring-btn {
+    height: 2.1rem;
+    width: 6.5rem;
+   background-color: #2F59AA;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 35px;
+   margin-top: 1rem;
+}
+#inspiring-btn  a{
+    font-family: var(--font-one);
+    color: #FFFFFF;
+}
+
+
+/* footer-start */
+#sparkLab-footer{
+    background-color: #F9FAFC;
+}
+
+
+
+
+
+
+
+
+
+/* footer-end */
+
+
+
+
+
+
+
+
+
 
 /* <!-- 567px 768px 992px 1200px --> */
 @media (max-width:1303px) {
