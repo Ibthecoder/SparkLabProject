@@ -537,7 +537,86 @@ margin-top: 25px;
     background-color: #F9FAFC;
 }
 
+.footer-wrie-up-one p{
+    font-weight: 400;
+    font-family: var(--font-one);
+    color: #101218;
+}
 
+.footer-wrie-up-two{
+    margin-top: 40px;
+}
+
+.footer-wrie-up-two p{
+    font-weight: 400;
+    font-family: var(--font-one);
+    color: #38393E;
+}
+#facebook-icon{
+    font-size: 1.5rem;
+}
+#instagram-icon{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+#linkedin-icon{
+    font-size: 1.5rem;
+    margin-left: 10px; 
+}
+#twitter-icon{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.course-txt{
+    font-weight: 600;
+    font-family: var(--font-one);
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.course-menu-txt li{
+    font-weight: 400;
+    font-family: var(--font-one);
+    margin-top: 9px;
+}
+
+.Company-txt{
+    font-weight: 600;
+    font-family: var(--font-one);
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.company-menu-txt li{
+    font-weight: 400;
+    font-family: var(--font-one);
+    margin-top: 9px;
+    color: #101218;
+}
+#Subscribe-txt{
+    font-weight: 600;
+    color: #101218;
+    font-family: var(--font-one);
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+#spark-input{
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 17rem;
+    padding: 10px;
+}
+#Subscribe-btn{
+    border: none;
+    background-color: #F9BE25;
+    color: #101218;
+    margin-top: 25px;
+    width: 6rem;
+    font-family: var(--font-one);
+    border-radius: 20px;
+    font-weight: 600;
+    height: 2rem;
+
+}
 
 
 
@@ -688,7 +767,7 @@ margin: 0px 39%;
 
    .Navbar-Menu{
       flex-direction: column;
-      height: 14rem;
+      height: 16rem;
       background-color: var(--navbarBgColor);
       box-shadow: 1px 1px 1px;
       gap: 1rem;
@@ -724,7 +803,7 @@ margin: 0px 39%;
 
     .Navbar-Menu{
        flex-direction: column;
-       height: 14rem;
+       height: 16rem;
        background-color: var(--navbarBgColor);
        box-shadow: 1px 1px 1px;
        gap: 1rem;
@@ -759,7 +838,7 @@ margin: 0px 39%;
 
     .Navbar-Menu{
        flex-direction: column;
-       height: 14rem;
+       height: 16rem;
        background-color: var(--navbarBgColor);
        box-shadow: 1px 1px 1px;
        gap: 1rem;
@@ -801,7 +880,7 @@ margin: 0px 39%;
 
     .Navbar-Menu{
        flex-direction: column;
-       height: 14rem;
+       height: 16rem;
        background-color: var(--navbarBgColor);
        box-shadow: 1px 1px 1px;
        gap: 1rem;
@@ -838,7 +917,7 @@ margin: 0px 39%;
     }
     .Navbar-Menu{
        flex-direction: column;
-       height: 14rem;
+       height: 16rem;
        background-color: var(--navbarBgColor);
        box-shadow: 1px 1px 1px;
        gap: 1rem;
@@ -885,7 +964,7 @@ margin: 0px 39%;
     }
     .Navbar-Menu{
        flex-direction: column;
-       height: 14rem;
+       height: 16rem;
        background-color: var(--navbarBgColor);
        box-shadow: 1px 1px 1px;
        gap: 1rem;
